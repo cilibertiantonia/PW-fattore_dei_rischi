@@ -1,97 +1,100 @@
 body,
-html{
+html{ /* Reset del padding e del margine per un punto di partenza più pulito */
     padding: 0;
     margin: 0;
 }
 
-body{
-    background:rgba(226, 237, 240, 0.599);
-    font-family: Arial;
+body{ 
+    background:rgba(226, 237, 240, 0.599); /* imposta lo sfondo del body con il colore scelto */
+    font-family: Arial; /* imposta il tipo di carattere come font di tutto il documento */
 }
 
-h1 {
-    color:#3470d1;
-    text-align: center;font-size: 40px;
-    padding: 20px;margin:10px;
+h1 { /* impostazioni dello stile del titolo principale*/
+    color:#3470d1; /* Colore scelto per h1*/
+    text-align: center;/* allinea il testo al centro*/
+    font-size: 40px;/* dimensione del carattere per renderlo più evidente*/
+    padding: 20px;/*aggiunge spazio attorno al testo*/
+    margin:10px;/*aggiunge spazio esterno tra il titolo e gli altri elemnti della pagina*/
 }
 
-.img-res{
-    display: block;
+.img-res{ /*stile per l'immagine*/
+    display: block;/*display:block e margin: auto per centrerla orizzontalmente*/
     margin: auto;
-    width: 50%;
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)  
+    width: 50%;/* per occupar metà della larghezza del contenitore*/
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%) /*per darle la forma a diamante*/
 }
 
-h2 {
+h2 {/*Impostazione stile sottotitolo*/
     color:#3470d1;
     text-align: center;
-    padding: 20px; margin: 10px;
+    padding: 20px;
+     margin: 10px;
 }
     
 main {
-    flex: 1;
-    padding: 2em;
-    max-width: 800px;
+    flex: 1;/*permette all'elemento di occupare lo spazio disponibile all'interno del contenitore flessibile*/
+    padding: 2em;/*aggiunge imbottitura di 2 em*/
+    max-width: 800px;/*max-whidt e margin centrano il contenuto in orizzontale */
     margin: 2em auto;
-    background-color: #ddf0f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(198, 241, 245, 0.1);
+    background-color: #ddf0f4;/* colore di sfondo*/
+    border-radius: 8px;/*angoli arrotondati*/
+    box-shadow: 0 2px 10px rgba(198, 241, 245, 0.1); /*Utilizzato per dare profondità e rilievo*/
 }
 
-.container{padding: 15px;
+.container{padding: 15px;/* Aggiunge spazio interno agli elementi class conteiner*/
 }
 
-h3{
+h3{ /*impostazine di stile titolo sottosezione*/
     color:blue;
     padding: 10px;
      margin: 5px;
 }
-p {
+p {/*impostazione di stile paragrafi*/
     color:#3470d1;
     margin: 16px;
 }
 
-.cover{ 
-    background: white;
-    border: 4px solid #3470d1;
+.cover{ /* Impostazione di stile per la classe.cover*/
+    background: white;/*colore di sfondo*/
+    border: 4px solid #3470d1;/* colore e larghezza del bordo*/
     display: flex; /* Allinea immagine e testo sulla stessa riga */
     align-items: center; /* centra verticalmente gli elementi */
     gap: 20px; /* Aggiunge spazio tra gli elementi */
 }
 
-.a {
-    border: none;
-    width: 100px;
+.a { /*impostazione stile classe .a*/
+    border: none;/*Rimuove i bordi dall'elemento*/
+    width: 100px;/* Imposta la largheezza dell'elemento*/
 }
 
-.download-section {
+.download-section {/*impostazone stile classe .download-section*/
      color:blue;
      margin: 20px;
 }
 
-.download p {
+.download p { /*Stile paragrafi all'interno della classe.download*/
     color:#3470d1;  
 }
 
-.download-button {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border: 2px solid white;
-   background-color: #3498db;
-   color:white;
-   padding:32px 16px;
-   text-decoration: none;
-   border-radius: 50%;
-   transition: background-color 0.4s;
-   margin: 0%;
-   width: 100px;
-   margin-left: auto;
+.download-button { /*Stile per il pulsante di download*/
+   display: flex;/*Attiva layout Flexbox per allineare gli elemtni interni*/
+   justify-content: center;/*Centra in orizzontale in contenuto*/
+   align-items: center;/*Centra in verticale il contenuto*/
+   border: 2px solid white;/*Aggiunge il bordo*/
+   background-color: #3498db;/*Imposta colore di sfondo*/
+   color:white;/*Imposta il colore del testo*/
+   padding:32px 16px;/*Aggiunge spazio interno*/
+   text-decoration: none;/*Rimuove sottolineature per il link*/
+   border-radius: 50%;/* Gli da una forma circolare*/
+   transition: background-color 0.4s;/*Aggiunge un effetto di transizione al cambio di colore*/
+   margin: 0%;/*Reset margini*/
+   width: 100px;/* Imposta larghezza fissa*/
+   margin-left: auto;/*Margin left e margin right per centrare in orizzontale l'elemento*/
    margin-right: auto;
 }
 
-.download-button:hover {
-    background-color: rgb(104, 191, 234);
+.download-button:hover { /*Stile per il pulsante di download*/
+    background-color: rgb(104, 191, 234);/* Cambia il colore dello sfondo quando l'utente ci passa il mouse sopra*/
 }
 
 
