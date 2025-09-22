@@ -14,13 +14,13 @@ h1 { /* impostazioni dello stile del titolo principale*/
     text-align: center;/* allinea il testo al centro*/
     font-size: 40px;/* dimensione del carattere per renderlo più evidente*/
     padding: 20px;/*aggiunge spazio attorno al testo*/
-    margin:10px;/*aggiunge spazio esterno tra il titolo e gli altri elemnti della pagina*/
+    margin:10px;/*aggiunge spazio esterno tra il titolo e gli altri elementi della pagina*/
 }
 
 .img-res{ /*stile per l'immagine*/
-    display: block;/*display:block e margin: auto per centrerla orizzontalmente*/
+    display: block;/*display:block e margin: auto per centrarla orizzontalmente*/
     margin: auto;
-    width: 50%;/* per occupar metà della larghezza del contenitore*/
+    width: 50%;/* per occupare metà della larghezza del contenitore*/
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%) /*per darle la forma a diamante*/
 }
 
@@ -41,7 +41,7 @@ main {
     box-shadow: 0 2px 10px rgba(198, 241, 245, 0.1); /*Utilizzato per dare profondità e rilievo*/
 }
 
-.container{padding: 15px;/* Aggiunge spazio interno agli elementi class conteiner*/
+.container{padding: 15px;/* Aggiunge spazio interno agli elementi class container*/
 }
 
 h3{ /*impostazine di stile titolo sottosezione*/
@@ -64,7 +64,7 @@ p {/*impostazione di stile paragrafi*/
 
 .a { /*impostazione stile classe .a*/
     border: none;/*Rimuove i bordi dall'elemento*/
-    width: 100px;/* Imposta la largheezza dell'elemento*/
+    width: 100px;/* Imposta la larghezza dell'elemento*/
 }
 
 .download-section {/*impostazone stile classe .download-section*/
@@ -77,7 +77,7 @@ p {/*impostazione di stile paragrafi*/
 }
 
 .download-button { /*Stile per il pulsante di download*/
-   display: flex;/*Attiva layout Flexbox per allineare gli elemtni interni*/
+   display: flex;/*Attiva layout Flexbox per allineare gli elementi interni*/
    justify-content: center;/*Centra in orizzontale in contenuto*/
    align-items: center;/*Centra in verticale il contenuto*/
    border: 2px solid white;/*Aggiunge il bordo*/
@@ -85,7 +85,7 @@ p {/*impostazione di stile paragrafi*/
    color:white;/*Imposta il colore del testo*/
    padding:32px 16px;/*Aggiunge spazio interno*/
    text-decoration: none;/*Rimuove sottolineature per il link*/
-   border-radius: 50%;/* Gli da una forma circolare*/
+   border-radius: 50%;/* Gli dà una forma circolare*/
    transition: background-color 0.4s;/*Aggiunge un effetto di transizione al cambio di colore*/
    margin: 0%;/*Reset margini*/
    width: 100px;/* Imposta larghezza fissa*/
